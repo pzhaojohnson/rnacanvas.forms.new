@@ -1,0 +1,13 @@
+.link {
+  color: cyan;
+
+  font-weight: 700;
+
+  pointer-events: auto;
+
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

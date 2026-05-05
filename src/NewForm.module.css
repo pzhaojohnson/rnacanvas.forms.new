@@ -1,0 +1,22 @@
+.new-form {
+  width: 352px;
+  height: 497px;
+
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 0, 0.88);
+
+  border: 1px solid #cacae4;
+
+  padding: 32px 33px 50px 36px;
+}
+
+.content-container {
+  margin: 26px 0px 0px 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  pointer-events: none;
+}
