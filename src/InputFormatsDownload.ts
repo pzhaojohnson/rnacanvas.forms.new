@@ -12,7 +12,7 @@ export class InputFormatsDownload {
   constructor() {
     this.domNode.classList.add(styles['text']);
 
-    this.domNode.style.marginTop = '30px';
+    this.domNode.style.marginTop = '32px';
 
     let linkText = new Link('input formats');
 

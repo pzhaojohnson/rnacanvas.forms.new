@@ -6,7 +6,7 @@ export class MultipleStructuresTip {
   constructor() {
     this.domNode.classList.add(styles['text']);
 
-    this.domNode.style.marginTop = '30px';
+    this.domNode.style.marginTop = '32px';
 
     let Tip = document.createElement('span');
 
@@ -14,6 +14,6 @@ export class MultipleStructuresTip {
 
     Tip.style.fontWeight = '700';
 
-    this.domNode.append(Tip, ' Multiple structures can be pasted / dropped into a single drawing.');
+    this.domNode.append(Tip, ' Multiple sequences and structures can be pasted and dropped into a single drawing.');
   }
 }

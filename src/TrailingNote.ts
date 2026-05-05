@@ -8,6 +8,6 @@ export class TrailingNote {
 
     this.domNode.textContent = 'In general, RNAcanvas tries to support common structure formats (e.g., RNAfold results page output, Mfold output).';
 
-    this.domNode.style.marginTop = '30px';
+    this.domNode.style.marginTop = '34px';
   }
 }
