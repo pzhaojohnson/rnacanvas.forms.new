@@ -1,6 +1,6 @@
 .new-form {
-  width: 366px;
-  height: 499px;
+  width: 372px;
+  height: 495px;
 
   border-radius: 10px;
 
@@ -8,11 +8,11 @@
 
   border: 1px solid #cacae4;
 
-  padding: 33px 38px 50px 36px;
+  padding: 34px 38px 50px 36px;
 }
 
 .content-container {
-  margin: 33px 0px 0px 25px;
+  margin: 35px 0px 0px 25px;
 
   display: flex;
   flex-direction: column;
