@@ -6,7 +6,7 @@ export class MultipleStructuresTip {
   constructor() {
     this.domNode.classList.add(styles['text']);
 
-    this.domNode.style.marginTop = '33px';
+    this.domNode.style.marginTop = '36px';
 
     let Tip = document.createElement('span');
 

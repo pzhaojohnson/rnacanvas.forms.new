@@ -4,11 +4,13 @@ import { Title } from './Title';
 
 import { GeneralPrinciple } from './GeneralPrinciple';
 
-import { InputFormatsDownload } from './InputFormatsDownload';
-
 import { ExampleStructure } from './ExampleStructure';
 
-import { TrailingNote } from './TrailingNote';
+import { InputFormatsDownload } from './InputFormatsDownload';
+
+import { ANoteAboutSupportedFormats } from './ANoteAboutSupportedFormats';
+
+import { ErrorMessagesLocation } from './ErrorMessagesLocation';
 
 import { MultipleStructuresTip } from './MultipleStructuresTip';
 
@@ -32,7 +34,9 @@ export class NewForm {
 
   readonly #exampleStructure = new ExampleStructure();
 
-  readonly #trailingNote = new TrailingNote();
+  readonly #aNoteAboutSupportedFormats = new ANoteAboutSupportedFormats();
+
+  readonly #errorMessagesLocation = new ErrorMessagesLocation();
 
   readonly #multipleStructuresTip = new MultipleStructuresTip();
 
@@ -51,9 +55,10 @@ export class NewForm {
 
     [
       this.#generalPrinciple,
-      this.#inputFormatsDownload,
       this.#exampleStructure,
-      this.#trailingNote,
+      this.#inputFormatsDownload,
+      this.#aNoteAboutSupportedFormats,
+      this.#errorMessagesLocation,
       this.#multipleStructuresTip,
     ].forEach(ele => this.#contentContainer.append(ele.domNode));
 

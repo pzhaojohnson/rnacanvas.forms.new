@@ -20,11 +20,11 @@ export class ExampleStructure {
   );
 
   constructor() {
-    this.domNode.style.marginTop = '33px';
+    this.domNode.style.marginTop = '34px';
 
     this.domNode.append(this.#instructions.domNode);
 
-    this.#nameLine.domNode.style.marginTop = '32px';
+    this.#nameLine.domNode.style.marginTop = '30px';
 
     [
       this.#nameLine,

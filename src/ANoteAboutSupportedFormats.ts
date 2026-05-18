@@ -1,6 +1,6 @@
 import * as styles from './Text.module.css';
 
-export class TrailingNote {
+export class ANoteAboutSupportedFormats {
   readonly domNode = document.createElement('p');
 
   constructor() {
