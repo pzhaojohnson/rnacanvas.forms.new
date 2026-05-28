@@ -12,11 +12,11 @@ export class ExampleStructure {
   );
 
   readonly #sequenceLine = new StructureText(
-    'CUAUUACUGUAAGUCUCCCACUCUCCAGCGCUAUC'
+    'CUCCUUCUUAGCCAGGUGGUUACCUCCCUGGCGCCC'
   );
 
   readonly #dotBracketLine = new StructureText(
-    '......(((..(((.....)))...))).......'
+    '..........((((((.((....)).))))))....'
   );
 
   constructor() {
