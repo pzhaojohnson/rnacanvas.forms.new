@@ -1,13 +1,13 @@
 import * as styles from './Text.module.css';
 
-import { detectMacOS } from '@rnacanvas/utilities';
+import { detectMac } from '@rnacanvas/utilities';
 
 export class ErrorMessagesLocation {
   readonly domNode = document.createElement('p');
 
   readonly #errorMessages = BoldText('error messages');
 
-  readonly #devToolsKeyBinding = BoldText(detectMacOS() ? 'Option+Command+I' : 'Ctrl+Shift+I');
+  readonly #devToolsKeyBinding = BoldText(detectMac() ? 'Option+Command+I' : 'Ctrl+Shift+I');
 
   readonly #Console = BoldText('Console');
 

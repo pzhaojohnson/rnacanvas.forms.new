@@ -1,6 +1,6 @@
 {
   "name": "@rnacanvas/forms.new",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "The New form",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@rnacanvas/forms": "^4.0.1",
-    "@rnacanvas/utilities": "^7.2.0",
+    "@rnacanvas/utilities": "^8.0.0",
     "jquery": "^4.0.0",
     "uuid": "^13.0.0"
   }
